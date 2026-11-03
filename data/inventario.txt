@@ -1,0 +1,19 @@
+LAC001|Leche entera 1L|Lacteos|4200.0|35|10|Alqueria
+LAC002|Queso Campesino 250g|Lacteos|6500.0|4|10|Alpina
+LAC003|Yogurt Melocoton 150g|Lacteos|2200.0|0|8|Alpina
+BEB001|Jugo Hit Mora 500ml|Bebidas|3000.0|25|10|Postobon
+BEB002|Agua Cristal 600ml|Bebidas|1500.0|40|15|Postobon
+BEB003|Gaseosa 1.5L|Bebidas|5800.0|8|12|Postobon
+ASE001|Jabon Rey 300g|Aseo|2200.0|15|10|Dersa
+ASE002|Detergente 500g|Aseo|7500.0|20|5|Distribuidora Norte
+ASE003|Crema Dental 50ml|Aseo|3500.0|2|5|Colgate
+ABA001|Arroz Blanco 500g|Abarrotes|2400.0|50|20|Roa
+ABA002|Frijol Bola Roja 500g|Abarrotes|4800.0|30|10|Diana
+ABA003|Aceite Vegetal 900ml|Abarrotes|9500.0|12|15|Gourmet
+ABA004|Panela Cuadrada 500g|Abarrotes|3200.0|0|10|El Trapiche
+ABA005|Huevos AA x30|Abarrotes|16500.0|5|10|Santa Anita
+SNA001|Papas Limon 100g|Snacks|3500.0|25|10|Frito Lay
+SNA002|Chocoramo|Snacks|2500.0|30|15|Ramo
+SNA003|Galletas Festival|Snacks|1200.0|4|12|Noel
+SNA004|Mani Moto 50g|Snacks|1800.0|40|15|Frito Lay
+SNA005|Todo Rico 50g|Snacks|2800.0|0|5|Frito Lay
