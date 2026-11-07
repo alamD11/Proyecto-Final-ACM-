@@ -58,3 +58,33 @@ def obtener_alertas_stock(inventario):
                 
             alertas[proveedor].append(producto_alerta)
     return alertas
+def buscar_por_categoria(inventario, categoria):
+    """Busca productos que coincidan con la categoría ingresada."""
+    encontrados = {}
+    for codigo, prod in inventario.items():
+        if prod["categoria"].lower() == categoria.lower():
+            encontrados[codigo] = prod
+    return encontrados
+
+def modificar_producto(inventario, codigo):
+    """Permite cambiar el precio y el stock de un producto que ya existe."""
+    if codigo not in inventario:
+        print(f"Error: El producto con código '{codigo}' no existe.")
+        return False
+        
+    print(f"Vas a modificar: {inventario[codigo]['nombre']}")
+    try:
+        nuevo_precio = float(input("Ingrese el nuevo precio: "))
+        nuevo_stock = int(input("Ingrese el nuevo stock: "))
+        
+        if nuevo_precio <= 0 or nuevo_stock < 0:
+            print("Error: No se permiten precios negativos ni cero.")
+            return False
+            
+        inventario[codigo]["precio"] = nuevo_precio
+        inventario[codigo]["stock"] = nuevo_stock
+        print("¡Producto modificado con éxito!")
+        return True
+    except ValueError:
+        print("Error: Debes ingresar números válidos.")
+        return False

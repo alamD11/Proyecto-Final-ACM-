@@ -34,3 +34,20 @@ def guardar_inventario(inventario):
         for codigo, prod in inventario.items():
             linea = f"{codigo}|{prod['nombre']}|{prod['categoria']}|{prod['precio']}|{prod['stock']}|{prod['stock_minimo']}|{prod['proveedor']}\n"
             archivo.write(linea)
+def guardar_venta(venta):
+    """Guarda una venta en el archivo ventas.txt."""
+    os.makedirs("data", exist_ok=True)
+    
+    # Armamos la cadena de productos del carrito (ejem: LAC001:2;BEB003:1)
+    lista_productos = []
+    for codigo, cantidad in venta["productos"].items():
+        lista_productos.append(f"{codigo}:{cantidad}")
+    
+    productos_texto = ";".join(lista_productos)
+    
+    # Escribimos la linea completa
+    linea = f"{venta['fecha']}|{venta['total']}|{productos_texto}\n"
+    
+    # Usamos "a"(append) para no borrar las ventas anteriores
+    with open(RUTA_VENTAS, "a", encoding="utf-8") as archivo:
+        archivo.write(linea)
