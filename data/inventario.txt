@@ -17,3 +17,134 @@ SNA002|Chocoramo|Snacks|2500.0|30|15|Ramo
 SNA003|Galletas Festival|Snacks|1200.0|4|12|Noel
 SNA004|Mani Moto 50g|Snacks|1800.0|40|15|Frito Lay
 SNA005|Todo Rico 50g|Snacks|2800.0|0|5|Frito Lay
+LAC004|Queso Doble Crema 250g|Lacteos|7200.0|15|5|Alpina
+LAC005|Yogurt Fresa 150g|Lacteos|2200.0|20|8|Alpina
+LAC006|Yogurt Mora 150g|Lacteos|2200.0|18|8|Alpina
+LAC007|Kumis 150g|Lacteos|2300.0|12|5|Alpina
+LAC008|Leche Deslactosada 1L|Lacteos|4500.0|30|10|Alqueria
+LAC009|Leche Semidescremada 1L|Lacteos|4300.0|20|10|Alqueria
+LAC010|Mantequilla con Sal 250g|Lacteos|8500.0|10|4|Alpina
+LAC011|Mantequilla sin Sal 250g|Lacteos|8500.0|8|4|Alpina
+LAC012|Crema de Leche 200ml|Lacteos|3800.0|15|5|Alqueria
+LAC013|Quesito Antioqueño 250g|Lacteos|6800.0|12|4|Colanta
+LAC014|Avena Finesse 200ml|Lacteos|2800.0|25|10|Alpina
+LAC015|Avena Original 200ml|Lacteos|2500.0|30|10|Alpina
+LAC016|Queso Tajado 200g|Lacteos|7500.0|15|5|Alpina
+LAC017|Queso Mozzarella 250g|Lacteos|8200.0|10|4|Colanta
+LAC018|Leche en Polvo 380g|Lacteos|18500.0|15|5|Klim
+LAC019|Leche Condensada 300g|Lacteos|6500.0|20|8|La Lechera
+LAC020|Yogo Premio Fresa 1L|Lacteos|7500.0|10|4|Alpina
+LAC021|Yogurt Griego 150g|Lacteos|3500.0|12|4|Alpina
+LAC022|Queso Pera 250g|Lacteos|6200.0|8|3|Colanta
+LAC023|Suero Costeño 200g|Lacteos|4500.0|10|4|Colanta
+LAC024|Leche Saborizada Choco 200ml|Lacteos|2000.0|25|10|Alqueria
+LAC025|Leche Deslactosada 1.5L|Lacteos|6200.0|15|5|Alqueria
+BEB004|Coca Cola 400ml|Bebidas|2500.0|40|15|Coca Cola
+BEB005|Coca Cola 1.5L|Bebidas|6000.0|25|10|Coca Cola
+BEB006|Coca Cola 2.5L|Bebidas|8500.0|20|8|Coca Cola
+BEB007|Pepsi 400ml|Bebidas|2200.0|30|10|Postobon
+BEB008|Pepsi 1.5L|Bebidas|5500.0|20|8|Postobon
+BEB009|Colombiana 400ml|Bebidas|2200.0|35|10|Postobon
+BEB010|Colombiana 1.5L|Bebidas|5500.0|20|8|Postobon
+BEB011|Manzana Postobon 400ml|Bebidas|2200.0|35|10|Postobon
+BEB012|Manzana Postobon 1.5L|Bebidas|5500.0|20|8|Postobon
+BEB013|Sprite 400ml|Bebidas|2500.0|25|10|Coca Cola
+BEB014|Sprite 1.5L|Bebidas|6000.0|15|5|Coca Cola
+BEB015|Cuatro 400ml|Bebidas|2500.0|20|8|Coca Cola
+BEB016|Jugo Valle Naranja 200ml|Bebidas|1800.0|40|15|Coca Cola
+BEB017|Jugo Valle Mora 200ml|Bebidas|1800.0|40|15|Coca Cola
+BEB018|Hit Mango 500ml|Bebidas|3000.0|30|10|Postobon
+BEB019|Hit Lulo 500ml|Bebidas|3000.0|25|10|Postobon
+BEB020|Hit Tropical 1.5L|Bebidas|5500.0|15|5|Postobon
+BEB021|Tampico Citrus 2L|Bebidas|4500.0|12|4|Tampico
+BEB022|Vive100 400ml|Bebidas|2000.0|50|20|Quala
+BEB023|Speed Max 400ml|Bebidas|2000.0|45|15|Postobon
+BEB024|RedBull 250ml|Bebidas|6500.0|15|5|RedBull
+BEB025|Gatorade Mandarina 500ml|Bebidas|3500.0|20|8|Postobon
+BEB026|Gatorade Frutos Rojos 500ml|Bebidas|3500.0|20|8|Postobon
+BEB027|Agua Brisa 600ml|Bebidas|1500.0|40|15|Coca Cola
+BEB028|Agua Brisa con Gas 600ml|Bebidas|1600.0|20|8|Coca Cola
+BEB029|H2Oh Limon 600ml|Bebidas|2500.0|25|10|Postobon
+BEB030|H2Oh Maracuya 600ml|Bebidas|2500.0|20|8|Postobon
+ASE004|Jabon Palmolive 120g|Aseo|3200.0|25|10|Colgate
+ASE005|Jabon Protex Avena 120g|Aseo|3500.0|30|10|Colgate
+ASE006|Jabon Azul K 250g|Aseo|2000.0|20|8|Dersa
+ASE007|Shampoo Savital 400ml|Aseo|12500.0|15|5|Unilever
+ASE008|Shampoo Sedal 340ml|Aseo|14000.0|12|4|Unilever
+ASE009|Shampoo Ego 400ml|Aseo|13500.0|10|4|Quala
+ASE010|Desodorante Rexona 50ml|Aseo|9500.0|15|5|Unilever
+ASE011|Desodorante Speed Stick 50g|Aseo|10500.0|12|4|Colgate
+ASE012|Crema Dental Colgate 100ml|Aseo|6500.0|20|8|Colgate
+ASE013|Crema Dental Fortident 100ml|Aseo|4500.0|15|5|Quala
+ASE014|Cepillo Dental Colgate x2|Aseo|8500.0|10|4|Colgate
+ASE015|Papel Higienico Familia x4|Aseo|9500.0|30|10|Familia
+ASE016|Papel Higienico Scott x4|Aseo|8500.0|25|10|Kimberly
+ASE017|Toallas Nosotras x10|Aseo|6500.0|20|8|Familia
+ASE018|Protectores Nosotras x15|Aseo|5500.0|15|5|Familia
+ASE019|Maquina Afeitar Gillette 3|Aseo|7500.0|20|8|Gillette
+ASE020|Lavaloza Axion 250g|Aseo|3800.0|25|10|Colgate
+ASE021|Lavaloza Lozacrem 250g|Aseo|3500.0|20|8|Dersa
+ASE022|Limpiapisos Fabuloso 1L|Aseo|6500.0|15|5|Colgate
+ASE023|Limpiapisos Ajax 1L|Aseo|6200.0|12|4|Colgate
+ASE024|Detergente Ariel 500g|Aseo|8500.0|20|8|P&G
+ASE025|Detergente Fab 500g|Aseo|7800.0|18|6|Unilever
+ASE026|Suavizante Suavitel 1L|Aseo|8500.0|15|5|Colgate
+ASE027|Suavizante Aromatel 1L|Aseo|7500.0|12|4|Quala
+ASE028|Cloro Blancox 1L|Aseo|3500.0|25|10|JGB
+ASE029|Esponja Bon Bril x2|Aseo|2500.0|30|10|Bon Bril
+ASE030|Bolsas Basura Negras x10|Aseo|4500.0|20|8|Plastigoma
+ABA006|Arroz Diana 500g|Abarrotes|2500.0|40|15|Diana
+ABA007|Arroz Florhuila 500g|Abarrotes|2600.0|35|15|Florhuila
+ABA008|Lenteja 500g|Abarrotes|4200.0|25|10|Diana
+ABA009|Garbanzo 500g|Abarrotes|4500.0|20|8|Diana
+ABA010|Arveja Verde 500g|Abarrotes|3800.0|15|5|Diana
+ABA011|Aceite Premier 900ml|Abarrotes|9800.0|20|8|Premier
+ABA012|Aceite Natura 900ml|Abarrotes|12500.0|10|4|Natura
+ABA013|Sal Refisal 500g|Abarrotes|1800.0|40|15|Refisal
+ABA014|Azucar Incauca 500g|Abarrotes|2800.0|50|20|Incauca
+ABA015|Azucar Manuelita 500g|Abarrotes|2800.0|45|20|Manuelita
+ABA016|Harina Pan 1kg|Abarrotes|4500.0|30|10|Polar
+ABA017|Harina Promasa 1kg|Abarrotes|4200.0|25|10|Promasa
+ABA018|Harina Trigo Haz Oros 500g|Abarrotes|3500.0|20|8|Haz Oros
+ABA019|Pasta Doria Espagueti 250g|Abarrotes|2200.0|40|15|Doria
+ABA020|Pasta Doria Conchas 250g|Abarrotes|2200.0|35|15|Doria
+ABA021|Pasta Macarron 250g|Abarrotes|2000.0|30|10|La Muñeca
+ABA022|Atun Van Camps Aceite 160g|Abarrotes|6500.0|25|10|Van Camps
+ABA023|Atun Van Camps Agua 160g|Abarrotes|6500.0|20|10|Van Camps
+ABA024|Atun Isabel 160g|Abarrotes|5800.0|15|5|Isabel
+ABA025|Sardinas 425g|Abarrotes|4500.0|10|4|Gaviota
+ABA026|Salsa Tomate Fruco 200g|Abarrotes|4500.0|20|8|Fruco
+ABA027|Mayonesa Fruco 200g|Abarrotes|4800.0|18|8|Fruco
+ABA028|Mostaza Fruco 200g|Abarrotes|4200.0|12|4|Fruco
+ABA029|Caldo Maggi x8|Abarrotes|2500.0|40|15|Nestle
+ABA030|Caldo Ricostilla x8|Abarrotes|2800.0|45|15|Quala
+ABA031|Cafe Sello Rojo 250g|Abarrotes|6500.0|30|10|Nutresa
+ABA032|Cafe Aguila Roja 250g|Abarrotes|6200.0|25|10|Aguila Roja
+ABA033|Cafe Nescafe Tradicion 50g|Abarrotes|5500.0|15|5|Nestle
+ABA034|Chocolate Corona x250g|Abarrotes|5800.0|25|10|Nutresa
+ABA035|Chocolate Cruz x250g|Abarrotes|5200.0|20|8|Nutresa
+ABA036|Chocolisto 300g|Abarrotes|8500.0|15|5|Nutresa
+ABA037|Milo 250g|Abarrotes|9500.0|12|4|Nestle
+SNA006|Papas Margarita Pollo 100g|Snacks|3500.0|25|10|Frito Lay
+SNA007|Papas Margarita Natural 100g|Snacks|3500.0|30|10|Frito Lay
+SNA008|SuperRicas Pollo 100g|Snacks|3200.0|20|8|SuperRicas
+SNA009|SuperRicas TodoRico 100g|Snacks|3800.0|15|5|SuperRicas
+SNA010|Chitos 50g|Snacks|1500.0|40|15|Frito Lay
+SNA011|Cheese Tris 50g|Snacks|1500.0|35|15|Frito Lay
+SNA012|DeTodito BBQ 100g|Snacks|4500.0|25|10|Frito Lay
+SNA013|DeTodito Limon 100g|Snacks|4500.0|20|8|Frito Lay
+SNA014|Maizitos Limon 50g|Snacks|1800.0|30|10|Frito Lay
+SNA015|Tostacos Picantes 50g|Snacks|1800.0|25|10|Frito Lay
+SNA016|Tostacos Queso 50g|Snacks|1800.0|25|10|Frito Lay
+SNA017|Papas Fosforito 50g|Snacks|1500.0|30|10|SuperRicas
+SNA018|Gudiz 50g|Snacks|1500.0|20|8|Frito Lay
+SNA019|Chocolatina Jet 12g|Snacks|800.0|100|30|Nutresa
+SNA020|Chocolatina Jumbo Mani 40g|Snacks|2500.0|40|15|Nutresa
+SNA021|Chocolatina Gol 40g|Snacks|2200.0|30|10|Nutresa
+SNA022|Galletas Festival Fresa|Snacks|1200.0|35|10|Noel
+SNA023|Galletas Festival Choco|Snacks|1200.0|35|10|Noel
+SNA024|Galletas Tosh Miel|Snacks|1800.0|25|10|Noel
+SNA025|Muuu 50g|Snacks|1500.0|20|8|Nutresa
+SNA026|Nucita Doble|Snacks|1000.0|50|20|Nutresa
+SNA027|Bon Bon Bum Rojo|Snacks|500.0|80|25|Colombina
+SNA028|Bon Bon Bum Lulo|Snacks|500.0|60|25|Colombina
