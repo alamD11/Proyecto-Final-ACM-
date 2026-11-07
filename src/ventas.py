@@ -1,59 +1,51 @@
 import datetime
 
 def procesar_venta(inventario):
-    """Maneja el proceso de venta en consola."""
     carrito = {}
-    print("\n--- NUEVO REGISTRO DE VENTA ---")
+    print("\n--- NUEVA VENTA ---")
     
     while True:
-        codigo = input("Ingrese el codigo del producto (o '0' para cobrar): ").strip().upper()
+        codigo = input("Codigo del producto (o '0' para pagar): ").strip().upper()
         
         if codigo == '0':
             break
             
         if codigo not in inventario:
-            print("Producto no encontrado.")
+            print("Ese producto no existe")
             continue
             
         try:
-            cantidad = int(input(f"¿Cuantas unidades de {inventario[codigo]['nombre']}?: "))
+            cantidad = int(input(f"Cuantas unidades de {inventario[codigo]['nombre']}?: "))
             
             if cantidad <= 0:
-                print("La cantidad debe ser mayor a cero.")
+                print("Pon una cantidad mayor a 0")
                 continue
                 
-            # Validar que no se venda mas de lo que hay en stock
             stock_disponible = inventario[codigo]["stock"]
-            
-            # Si ya está en el carrito, sumar la cantidad para validar el stock total
             cantidad_en_carrito = carrito.get(codigo, 0)
             
             if (cantidad + cantidad_en_carrito) > stock_disponible:
-                print(f"Error: Solo hay {stock_disponible} unidades disponibles en total.")
+                print(f"Solo quedan {stock_disponible} unidades")
                 continue
                 
-            # Agregar al carrito
             if codigo in carrito:
                 carrito[codigo] += cantidad
             else:
                 carrito[codigo] = cantidad
                 
-            print("Producto agregado al carrito.")
+            print("Agregado al carrito")
             
         except ValueError:
-            print("Error: Por favor ingrese un número entero.")
+            print("Pon un numero valido")
             
-    # Si no compra nada... salir
     if not carrito:
-        print("Venta cancelada (carrito vacío).")
+        print("Venta cancelada, no hay nada en el carrito")
         return None
         
-    # Calcular subtotales
     subtotal = 0.0
     for cod, cant in carrito.items():
         subtotal += (inventario[cod]["precio"] * cant)
         
-    # Aplicar reglas de descuento
     descuento = 0.0
     if subtotal >= 100000:
         descuento = subtotal * 0.10
@@ -62,29 +54,26 @@ def procesar_venta(inventario):
         
     total_a_pagar = subtotal - descuento
     
-    print("\n--- RESUMEN DE COMPRA ---")
+    print("\n--- RESUMEN ---")
     print(f"Subtotal:  ${subtotal}")
     print(f"Descuento: ${descuento}")
     print(f"TOTAL:     ${total_a_pagar}")
     
-    # Proceso de pago
     while True:
         try:
-            pago = float(input("\nEfectivo recibido: $"))
+            pago = float(input("\nCon cuanto paga?: $"))
             if pago < total_a_pagar:
-                print(f"Falta dinero. El total es ${total_a_pagar}")
+                print(f"Falta plata, son ${total_a_pagar}")
             else:
                 cambio = pago - total_a_pagar
-                print(f"Cambio a entregar: ${cambio}")
+                print(f"Cambio: ${cambio}")
                 break
         except ValueError:
-            print("Ingrese una cantidad de dinero válida.")
+            print("Pon un numero")
             
-    # Descontar el stock del inventario
     for cod, cant in carrito.items():
         inventario[cod]["stock"] -= cant
         
-    # Retornar los datos para guardarlos en persistencia
     fecha_hoy = datetime.date.today().strftime("%Y-%m-%d")
     
     venta_final = {
@@ -93,5 +82,5 @@ def procesar_venta(inventario):
         "productos": carrito
     }
     
-    print("---Hiciste la compra we---")
+    print("Venta guardada")
     return venta_final
